@@ -34,7 +34,6 @@ ______________
 This repo contains the following Jupyter notebook files:
 
 - `quantum-nearest-neighbors_theory`: Notebook with markdown cells containing a detailed exposition of the algorithm. This serves both as a theoretical foundation as well as a reference for the implementation steps.
-- `quantum-nearest-neighbors_theory.html`: Same notebook as the one above, but downloaded as a HTML file, as the LaTex doesn't seem to render correctly on GitHub.
 - `quantum-nearest-neighbors_particular`: Python/Qiskit implementation of the algorithm for a particular case (4 training examples, 4 features each, 2 of each class). This notebook contains a step-by-step implementation, which is constructed and validated carefully. I recommend first understanding well this code, and then jump to the generic implementation in the notebook below.
 - `quantum-nearest-neighbors_arbitrary`: Python/Qiskit implementation of the generic algorithm (arbitrary number of training examples and features). This implementation is more concise, and could be used directly in different datasets (some examples are provided in the end). 
 
